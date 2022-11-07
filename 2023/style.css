@@ -1,0 +1,264 @@
+/* Base styles */
+
+a strong {
+  color: inherit;
+}
+
+hr {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d8dee9;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+pre {
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  text-align: center;
+}
+
+/* 01 Centering */
+
+header,
+main {
+  margin: 0 auto;
+  max-width: 60em;
+}
+
+/* 02 Font family */
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+/* 03 Spacing */
+
+body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+/* 04 Color and contrast */
+
+body {
+  color: #333;
+}
+
+h1,
+strong {
+  color: #222;
+}
+
+h2 {
+  color: #222;
+}
+
+h3 {
+  color: #222;
+}
+
+/* 05 Balance */
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+/* 06 Primary color */
+
+a {
+  color: rgba(38, 186, 151, .9);
+  /* color: #0f3966; */
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* 07 Secondary colors */
+
+body {
+  background: white;
+}
+
+
+/* 08 Custom font */
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+h1,
+h2,
+strong {
+  font-weight: 500;
+}
+
+
+/* 09 Images */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 4em 1em;
+}
+
+header {
+  background-image: linear-gradient(330deg, rgba(20, 20, 60, .89), rgba(38, 186, 151, .8)), url("images/tuebingen_nico(2).jpeg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.1;
+  max-width: none;
+  /* padding: 250px 2em; */
+  padding-top: 250px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+
+/* NAVIGATION BAR */
+
+nav ul li a:link,
+nav ul li a:visited,
+nav ul li a.active-page,
+nav ul li a:hover,
+div.transbox {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+
+/* NAVIGATION BAR */
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  position: relative;
+  bottom: 0%;
+  right: 0%;
+  font-size: 80%;
+}
+
+nav ul li {
+  float: left;
+  padding-top: 250px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+}
+
+/* 
+nav ul li a,
+nav ul li a.active-page,
+nav ul li a:hover,
+nav ul li a:link,
+nav ul li a:visited {
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+  font-size: 80%;
+  border-bottom: .1em solid transparent;
+  padding: 10px;
+}
+*/
+nav ul li a.active-page {
+  text-transform: uppercase;
+  color: white;
+  /* border-bottom: .075em solid white; */
+}
+
+nav ul li a:hover {
+  text-transform: uppercase;
+  font-size: 145%;
+  color: white;
+  border-bottom: .01em solid white;
+}
+
+
+
+header h1 {
+  color: white;
+  font-size: 3.5em;
+  font-weight: 300;
+}
+
+header h2 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+
+
+header a {
+  /* border: 1px solid #e81c4f; */
+  /* border-radius: 290486px; */
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  /* padding: 1em 2em; */
+  text-transform: uppercase;
+  text-decoration: none;
+  /* transition: none 200ms ease-out;
+  transition-property: color, background; */
+}
+
+header a:hover {
+  /* background: #e81c4f; */
+  color: white;
+}
+
+
+
+
+img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 80%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+span.left {
+  float: left;
+}
+
+span.right {
+  float: right
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
