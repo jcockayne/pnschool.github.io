@@ -136,7 +136,7 @@ main {
 }
 
 header {
-  background-image: linear-gradient(330deg, rgba(20, 20, 60, .89), rgba(38, 186, 151, .8)), url("images/tuebingen_nico(2).jpeg");
+  background-image: linear-gradient(330deg, rgba(20, 20, 60, .89), rgba(38, 186, 151, .8)), url("images/soton.jpeg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +144,7 @@ header {
   max-width: none;
   /* padding: 250px 2em; */
   padding-top: 250px;
-  padding-bottom: 0px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
