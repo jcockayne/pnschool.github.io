@@ -144,7 +144,7 @@ header {
   max-width: none;
   /* padding: 250px 2em; */
   padding-top: 250px;
-  padding-bottom: 25px;
+  padding-bottom: .2px;
   text-align: center;
 }
 
